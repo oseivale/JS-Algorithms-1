@@ -68,3 +68,11 @@ const lessThanEqualZero = (num) => {
 }
 
 console.log(lessThanEqualZero(0))
+
+// Basketball Points
+const basketballPoints = (twos, threes) => {
+    totalPoints = (twos * 2) + (threes * 3)
+    return totalPoints
+}
+
+console.log(basketballPoints(3, 5))
